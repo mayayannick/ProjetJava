@@ -32,12 +32,14 @@ public class Formulaire extends JFrame {
 	 private  JLabel t4=new JLabel("EC");
 	 private  JLabel t5=new JLabel("NOTE DEVOIR");
 	 private  JLabel t6=new JLabel("NOT EXAMEN");
+	 private JLabel t7=new JLabel("Email");
      private JTextField nom=new JTextField();
      private JTextField prenom=new JTextField();
      private JTextField ue=new JTextField();
      private JTextField ec=new JTextField();
      private JTextField noteD=new JTextField();
      private JTextField noteE=new JTextField();
+	 private JTextField mail=new JTextField();
 	 private JButton CalculMoy =new JButton("calculer Moyenne");
 	 private JButton Annuler =new JButton("Annuler");
      private double noteDevoir;
@@ -89,6 +91,7 @@ public class Formulaire extends JFrame {
 		ec.setPreferredSize(new Dimension(50,50));
 		noteD.setPreferredSize(new Dimension(50,50));
 		noteE.setPreferredSize(new Dimension(50,50));
+        mail.setPreferredSize(new Dimension(50,50));
 
        //insertion des panel au centre
 		
@@ -101,6 +104,8 @@ public class Formulaire extends JFrame {
 		P_center.add(t4);
 		P_center.add(ec);
 		P_center.add(t5);
+		P_center.add(t7);
+		P_center.add(mail);
 		P_center.add(noteD);
 		P_center.add(t6);
 		P_center.add(noteE);
@@ -156,7 +161,7 @@ public class Formulaire extends JFrame {
 			calcul();
 			JOptionPane op;
 			op=new JOptionPane();
-			JOptionPane.showMessageDialog(null, "L'etudiant(e) "+nom.getText()+ "  "+prenom.getText()+" a une moyenne de : "+moy+"  ","Resultat", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, "L'etudiant(e) "+nom.getText()+ "  "+prenom.getText()+"dont l'email est "+mail.getText()+" a une moyenne de : "+moy+"  ","Resultat", JOptionPane.INFORMATION_MESSAGE);
 			
 					
 		}
