@@ -1,6 +1,7 @@
 # ProjetJava
 
-Donnez le meilleur de vous même les gars complétez nous le code
+Donnez le meilleur de vous même les gars complétez nous le code!!!
+
 RAPOORT DE TRAVEAUX PRATIAQUES MINI-PROJET
 Le travail consiste à écrire un code java qui permet de mettre en place un formulaire qui permet de saisir les informations sur un étudiant et ses notes de devoir et d'examen. Un bouton <<Calculer la Moyenne>>permettant de calculer la moyenne de l'étudiant et de l'afficher sur une boite de dialogue. Un bouton <<Annuler>> qui pêrmet de fermer la fenêtre et d'arrêter le programme.
 Nous avons eu à mettre en place une classe Formulaire qui étends la classe JFrame de javax.swings.* et implémente l'interface ActionListener de javax.awt.*
