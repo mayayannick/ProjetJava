@@ -1,11 +1,11 @@
 # ProjetJava
 le projet est composé de:
-- Madjiadoum yannick
-- Bloum voktoin celestin
-- Aoutacksa dieudonné
-- Komhidi jean-jacques
-- Ndouba eloge
-- Nelembaye Nadwaye
+- Madjiadoum yannick (mayayannick)
+- Bloum voktoin celestin(bloumtologie)
+- Aoutacksa dieudonné(nesgui)
+- Komhidi jean-jacques(Jean-Jacques)
+- Ndouba eloge(larhidji)
+- Nelembaye Nadwaye(syntianas)
 
 Donnez le meilleur de vous même les gars complétez nous le code!!!
 
