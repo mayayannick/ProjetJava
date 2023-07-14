@@ -19,6 +19,7 @@ public class Formulaire extends JFrame {
 	 private  JLabel t6=new JLabel("NOT EXAMEN");
 	 private JLabel t7=new JLabel("Email");
 	 private JLabel t8=new JLabel("Age");
+	private JLabel t9=new JLabel("sexe");
      private JTextField nom=new JTextField();
      private JTextField prenom=new JTextField();
      private JTextField ue=new JTextField();
@@ -27,6 +28,7 @@ public class Formulaire extends JFrame {
      private JTextField noteE=new JTextField();
 	 private JTextField age=new JTextField();
 	 private JTextField mail=new JTextField();
+	 private JTextField sexe=new JTextField();
 	 private JButton CalculMoy =new JButton("calculer Moyenne");
 	 private JButton Annuler =new JButton("Annuler");
      private double noteDevoir;
@@ -80,6 +82,7 @@ public class Formulaire extends JFrame {
 		noteE.setPreferredSize(new Dimension(50,50));
         mail.setPreferredSize(new Dimension(50,50));
 		 age.setPreferredSize(new Dimension(50,50));
+		sexe.setPreferredSize(new Dimension(50,50));
 
        //insertion des panel au centre
 		
@@ -94,11 +97,14 @@ public class Formulaire extends JFrame {
 		P_center.add(t5);
 		P_center.add(t8);
 		P_center.add(age);
+		p_center.add(t9);
+		p_center.add(sexe);
 		P_center.add(t7);
 		P_center.add(mail);
 		P_center.add(noteD);
 		P_center.add(t6);
 		P_center.add(noteE);
+		
 		
 		
 		//insertion au sud
@@ -152,7 +158,7 @@ public class Formulaire extends JFrame {
 			calcul();
 			JOptionPane op;
 			op=new JOptionPane();
-			JOptionPane.showMessageDialog(null, "L'etudiant(e) "+nom.getText()+ "  "+prenom.getText()+"dont l'email est "+mail.getText()+" a une moyenne de : "+moy+"  ","Resultat", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, "L'etudiant(e) "+nom.getText()+ "  "+prenom.getText()+" âgé(e) de "+age.getText()+" de sexe "+sexe.getText()+ "dont l'email est "+mail.getText()+" a une moyenne de : "+moy+"  ","Resultat", JOptionPane.INFORMATION_MESSAGE);
 			
 					
 		}
