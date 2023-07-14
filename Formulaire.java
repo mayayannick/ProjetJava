@@ -20,6 +20,8 @@ public class Formulaire extends JFrame {
 	 private JLabel t7=new JLabel("Email");
 	 private JLabel t8=new JLabel("Age");
 	private JLabel t9=new JLabel("sexe");
+	private JLabel t10=new JLabel("Nationalite");
+       private JLabel t11=new JLabel("Matricule");
      private JTextField nom=new JTextField();
      private JTextField prenom=new JTextField();
      private JTextField ue=new JTextField();
@@ -29,6 +31,8 @@ public class Formulaire extends JFrame {
 	 private JTextField age=new JTextField();
 	 private JTextField mail=new JTextField();
 	 private JTextField sexe=new JTextField();
+	private JTextField nationalite=new JTextField();
+	private JTextField matricule=new JTextField();
 	 private JButton CalculMoy =new JButton("calculer Moyenne");
 	 private JButton Annuler =new JButton("Annuler");
      private double noteDevoir;
@@ -83,6 +87,7 @@ public class Formulaire extends JFrame {
         mail.setPreferredSize(new Dimension(50,50));
 		 age.setPreferredSize(new Dimension(50,50));
 		sexe.setPreferredSize(new Dimension(50,50));
+		nationalite.setPreferredSize(new Dimension(50,50));
 
        //insertion des panel au centre
 		
@@ -102,8 +107,12 @@ public class Formulaire extends JFrame {
 		P_center.add(t7);
 		P_center.add(mail);
 		P_center.add(noteD);
+		P_center.add(nationalite);
+		P_center.add(t10);
 		P_center.add(t6);
 		P_center.add(noteE);
+		P_center.add(matricule);
+		P_center.add(t11);
 		
 		
 		
