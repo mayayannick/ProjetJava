@@ -9,3 +9,6 @@ Nous avons eu à mettre en place une classe Formulaire qui étends la classe JFr
 3-Implementation de la méthode void actionPerformed(ActionEvent e): cette implémentation permet de gerer les cas d'exceptions. En d'autres termes si le format du formulaire est incorrect notre programme est capable d'afficher le message " Erreur Format" et si le format du formulaire est correct notre programme calcul et affiche la moyenne de l'étudiant en affichant le message dans l'ordre suivant: prenom, nom, email, age, moyenne
 4-Mise en place d'une nouvelle clacsse nommée Main(string [] args);
 voici d'une manière brève ce que comporte notre code
+
+
+il est aussi permis d'ajouter d'autres champs d'informations comme :sexe ,email, age... sur le formulaire. Libre arbitre pour toute inspiration pouvant perfectionner le projet.  
