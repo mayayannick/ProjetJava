@@ -13,3 +13,4 @@ voici d'une manière brève ce que comporte notre code
 
 
 il est aussi permis d'ajouter d'autres champs d'informations comme :sexe ,email, age... sur le formulaire. Libre arbitre pour toute inspiration pouvant perfectionner le projet.  
+On peut y ajouter aussi la nationalité,la matricule de l'étudiant.
